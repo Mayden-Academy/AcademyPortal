@@ -19,7 +19,7 @@ class CourseEntity
         string $name = null,
         string $trainer = null,
         string $notes = null
-    ){
+    ) {
         $this->id = ($this->id ?? $id);
         $this->startDate = ($this->startDate ?? $startDate);
         $this->endDate = ($this->endDate ?? $endDate);
